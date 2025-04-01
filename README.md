@@ -213,7 +213,7 @@ data:
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
   subscriptions: |
     - recipients:
-        - slack:argocd-alert
+        - slack:<your-channel>
       triggers:
         - on-sync-status-unknown
         - on-sync-failed
