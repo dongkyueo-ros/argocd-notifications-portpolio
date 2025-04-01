@@ -1,5 +1,5 @@
 # ArgoCD Notifications(Slack)
-![ArgoCD](https://dongkyueo-ros.github.io/argocd-notifications-portpolio/assets/argocd_notifications_icon.png)
+![ArgoCD](docs/assets/argocd_notifications_icon.png)
 
 이 문서는 ArgoCD 에서 제공하는 Notifications 플러그인을 활용해, Slack 채널로 알림을 받기 위한 설정 방법을 설명합니다. Slack 알림을 기본으로 사용하며 별도의 `annotations`추가 없이 신규 애플리케이션에 알림이 적용되도록 하는 방법을 포함하고 있습니다. 
 
@@ -230,7 +230,7 @@ data:
 - `argocd-notifications-cm`의 `subscriptions`항목이 올바르게 구성되지 않았거나 누락되면 알림이 전송되지 않을 수 있습니다.
 - 이 경우, 애플리케이션 `matadata`에 개별 `annotations`을 추가하여여 정상 동작 여부를 확인 또는 Helm Chart로 배포한 경우 `subscriptions`의 `trigger`필드에 값이 정상적으로 들어가 있는지 확인
 
-![ArgoCD](https://dongkyueo-ros.github.io/argocd-notifications-portpolio/assets/argocd-notification-1-1.png)
+![ArgoCD](docs/assets/argocd-notification-1-1.png)
 
 **버전 관련 이슈:**
 - 일부 버전에서 `--secret-name`등의 `command`옵션이 동작하지 않는 이슈 발생 때문에 argocd-notification v1.2.0 으로 진행
@@ -245,4 +245,4 @@ https://argo-cd.readthedocs.io/en/latest/operator-manual/notifications/
 - ArgoCD GitHub Repository 및 관련 이슈 트래커
 
 ## 6. 구성 완료(alert check)
-![ArgoCD](https://dongkyueo-ros.github.io/argocd-notifications-portpolio/assets/argocd-notification-1-2.png)
+![ArgoCD](docs/assets/argocd-notification-1-2.png)
