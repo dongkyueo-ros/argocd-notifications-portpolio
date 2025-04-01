@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/fcf4fb3e-57ba-4227-b1ab-7c61c3b0135f)
+![Image](https://github.com/user-attachments/assets/e70f0ad0-e919-445a-a876-f90643d85d33)
 
 # ArgoCD Notifications
 K8S Cluster
@@ -232,7 +232,7 @@ data:
 - `argocd-notifications-cm`의 `subscriptions`항목이 올바르게 구성되지 않았거나 누락되면 알림이 전송되지 않을 수 있습니다.
 - 이 경우, 애플리케이션 `matadata`에 개별 `annotations`을 추가하여여 정상 동작 여부를 확인 또는 Helm Chart로 배포한 경우 `subscriptions`의 `trigger`필드에 값이 정상적으로 들어가 있는지 확인
 
-![Image](https://github.com/user-attachments/assets/7c760e3e-aab7-4a75-85be-57dfd208b2d4)
+![Image](https://github.com/user-attachments/assets/869c2f5f-ee44-41a1-974c-42cd956e85a2)
 
 **버전 관련 이슈:**
 - 일부 버전에서 `--secret-name`등의 `command`옵션이 동작하지 않는 이슈 발생 때문에 argocd-notification v1.2.0 으로 진행
@@ -247,4 +247,4 @@ https://argo-cd.readthedocs.io/en/latest/operator-manual/notifications/
 - ArgoCD GitHub Repository 및 관련 이슈 트래커
 
 ## 6. 구성 완료(alert check)
-![Image](https://github.com/user-attachments/assets/a896bc6a-69ed-4e1c-8348-ac410924ac13)
+![Image](https://github.com/user-attachments/assets/9586ff13-e17e-4fc2-ae4e-e411c71d69a7)
