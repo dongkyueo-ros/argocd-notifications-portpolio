@@ -1,7 +1,5 @@
-![Image](https://github.com/user-attachments/assets/e70f0ad0-e919-445a-a876-f90643d85d33)
-
 # ArgoCD Notifications
-K8S Cluster
+![Image](https://github.com/user-attachments/assets/e70f0ad0-e919-445a-a876-f90643d85d33)
 
 이 문서는 ArgoCD 에서 제공하는 Notifications 플러그인을 활용해, Slack 채널로 알림을 받기 위한 설정 방법을 설명합니다. Slack 알림을 기본으로 사용하며 별도의 `annotations`추가 없이 신규 애플리케이션에 알림이 적용되도록 하는 방법을 포함하고 있습니다. 
 
