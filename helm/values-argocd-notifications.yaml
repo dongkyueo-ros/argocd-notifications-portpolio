@@ -18,4 +18,4 @@ subscriptions:
       - on-deployed
       - on-sync-succeeded
 
-argocdUrl: https://argocd.infra.maum.ai
+argocdUrl: <argocdUrl>
