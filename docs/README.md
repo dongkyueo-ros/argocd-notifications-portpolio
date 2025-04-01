@@ -220,12 +220,7 @@ data:
         - on-sync-succeeded
 ```
 
-## 4. Slack 채널 알림 설정 (공통)
-> CLI 든 Helm 이든 Kustomize 든, 모두 동일하게 적용 됩니다.
-- 개별 애플리케이션에 `annotations`추가
-- ApplicationSet 템플릿에 `annotations`포함
-
-## 5. 문제 해결 및 주의사항
+## 4. 문제 해결 및 주의사항
 **subscriptions(기본 구독) 설정 미적용 문제:**
 - `argocd-notifications-cm`의 `subscriptions`항목이 올바르게 구성되지 않았거나 누락되면 알림이 전송되지 않을 수 있습니다.
 - 이 경우, 애플리케이션 `matadata`에 개별 `annotations`을 추가하여여 정상 동작 여부를 확인 또는 Helm Chart로 배포한 경우 `subscriptions`의 `trigger`필드에 값이 정상적으로 들어가 있는지 확인
