@@ -174,7 +174,7 @@ subscriptions:
       - on-deployed
       - on-sync-succeeded
 
-argocdUrl: https://argocd.infra.maum.ai
+argocdUrl: <argocdUrl>
 ```
 
 #### 3-2. ArgoCD Helm Chart Repository 추가 및 argocd-notifications APP 생성
