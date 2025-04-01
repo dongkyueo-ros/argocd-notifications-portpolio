@@ -1,6 +1,0 @@
-# infra.argocd-notifications/Chart.yaml
-apiVersion: v2
-name: argocd-notifications
-description: A Helm chart for Argo CD Notifications
-version: 0.1.0
-appVersion: "1.0"
